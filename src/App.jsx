@@ -1,11 +1,19 @@
-
-import './App.css'
+import userData from './userData.json';
+import Profile from './components/Profile/Profile';
+import './App.css';
 
 function App() {
-
-  return (
-  <div>Hello</div>
-  )
+    return (
+        <>
+            <Profile
+                name={userData.username}
+                tag={userData.tag}
+                location={userData.location}
+                image={userData.avatar}
+                stats={userData.stats}
+            />
+        </>
+    );
 }
 
-export default App
+export default App;
