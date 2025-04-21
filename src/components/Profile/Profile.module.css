@@ -32,13 +32,11 @@
 }
 
 .stats {
-    
     width: 100%;
-   border-top: #191d22 3px solid;
-    margin-top: 16px; 
+    border-top: #191d22 3px solid;
+    margin-top: 16px;
     display: flex;
     width: 100%;
-    
 }
 
 .stats li {
@@ -49,8 +47,8 @@
     flex: 1;
 }
 
-.stats li:not(:last-child){
-border-right: #191d22 3px solid;
+.stats li:not(:last-child) {
+    border-right: #191d22 3px solid;
 }
 
 .label {

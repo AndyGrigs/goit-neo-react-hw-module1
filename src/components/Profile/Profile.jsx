@@ -1,7 +1,5 @@
 import React from 'react';
-import styles from './Profile.module.css'
-
-
+import styles from './Profile.module.css';
 
 const Profile = ({ name, tag, location, image, stats: { followers, views, likes } }) => {
     return (
@@ -10,8 +8,8 @@ const Profile = ({ name, tag, location, image, stats: { followers, views, likes 
                 <img className={styles.avatar} src={image} alt="User avatar" />
                 <p className={styles.name}>{name}</p>
                 <p className={styles.tag}>{tag}</p>
-                
-                <p className={styles.location}>{location}</p> 
+
+                <p className={styles.location}>{location}</p>
             </div>
 
             <ul className={styles.stats}>
