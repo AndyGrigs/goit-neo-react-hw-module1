@@ -40,3 +40,8 @@ html,
 body {
 	block-size: 100%; 
 }
+/* _____________________________________________ */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
